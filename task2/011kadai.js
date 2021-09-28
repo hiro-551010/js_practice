@@ -28,3 +28,8 @@
 // window.addEventListener("load", function() {
 //     this.alert("Hello B");
 // });
+
+document.getElementById("button1").onclick = function() {
+    let cpuhands =  Math.floor(Math.random() * 3) + 1
+    alert(cpuhands)
+}

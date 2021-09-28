@@ -1,0 +1,45 @@
+div {
+    padding: 18px;
+    margin: 10px ;
+    border: 1px solid #cccccc;
+}
+
+.on {
+    background: #cccccc;
+}
+
+.click {
+    float: left;
+    width: 470px;
+}
+
+.shikaku {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background: #4798bd;
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+.parallax1 {
+    position: fixed;
+    top: 300px;
+    width: 300px;
+    height: auto;
+    z-index: -1;
+}
+
+.parallax2 {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    width: 300px;
+    height: auto;
+    z-index: -1;
+}
+
+.section {
+    height: 500px;
+}
