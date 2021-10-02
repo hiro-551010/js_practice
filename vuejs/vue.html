@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>vuejs</title>
+</head>
+<body>
+    <div id="app">
+        <input type="number" v-model.number="number">
+        <p>+</p>
+        <input type="number" v-model.number="number1">
+        = {{ number2 }}
+        <button @click="calnumber">計算する</button>
+    </div>
+ 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        let app = new Vue({
+            el: "#app",
+            data: {
+                number: 0,
+                number1: 0,
+                number2: 0,
+            },
+            methods: {
+                calnumber: function() {
+                    this.number2 = this.number + this.number1
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>
